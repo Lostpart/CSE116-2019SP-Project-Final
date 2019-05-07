@@ -1,0 +1,13 @@
+{
+    "main": "index.html",
+    "name": "cse116",
+    "window": {
+        "title": "cse116",
+        "width": 800,
+        "height": 600,
+        "fullscreen": false,
+        "toolbar": true
+    },
+    "version": "0.1.0",
+    "chromium-args": "--data-path='./saves/' --in-process-gpu --disable-transparency"
+}
