@@ -12,7 +12,7 @@ def login(username, orig_token):
     setting_exptime = 28800
 
     ##CREATE TABLE `cse116proj1`.`user` ( `uid` INT NOT NULL AUTO_INCREMENT , `username` VARCHAR(16) NOT NULL , `token` VARCHAR(64) NOT NULL , `validity` INT NOT NULL , PRIMARY KEY (`uid`)) ENGINE = InnoDB;
-    db = pymysql.connect(host='cdb-m0myq4i3.gz.tencentcdb.com',user='cse116proj1',passwd='W75ECPtJmT8a4cTs',db='cse116proj1',port=10015,charset='utf8' )
+    db = pymysql.connect(host='***',user='cse116proj1',passwd='***',db='cse116proj1',port=***,charset='utf8' )
     cursor = db.cursor()
 
     # 库名 cse116proj1
